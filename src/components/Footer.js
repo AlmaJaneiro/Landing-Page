@@ -22,17 +22,25 @@ class Footer extends Component {
                         </div>
                         <div className="col-3">
                             <h3 className="blanco">Sígueme</h3>
-
+                            <ul className="misRedes">
+                                <li><i className="fa fa-facebook"></i></li>
+                                <li><i className="fa fa-instagram"></i></li>
+                                <li><i className="fa fa-twitter"></i></li>
+                                <li><i className="fa fa-wordpress"></i></li>
+                                <li><i className="fa fa-linkedin"></i></li>
+                                <li><i className="fa fa-youtube"></i></li>
+                            </ul>
+                            
                         </div>
                         <div className="col-3">
                             <h3 className="blanco">Sitemap</h3>
                             <ul>
-                                <li>Home</li>
+                                <li className="mail">Home</li>
                             </ul>
                         </div>
                         <div className="col-3">
                             <h3 className="blanco">Contacto</h3>
-                            <a href="mailto:almasuarez93@hotmail.com">almasuarez93@hotmail.com</a>
+                            <a className="mail peso_900" href="mailto:almasuarez93@hotmail.com">almasuarez93@hotmail.com</a>
                         </div>
                         <hr />
                         <div className="col-12 derecho espacio-year">

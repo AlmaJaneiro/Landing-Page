@@ -41,7 +41,7 @@ class SeccionHome extends Component {
                             </div>
                         </div>
                         <div className="col-6">
-                            <img className="bounce-1" src="https://almasuarez.com/static/mobile-screen-38f4a72e4c30294deb893a96c86e4566.png" />
+                            <img alt="Alma desarrolladora" className="bounce-1" src="https://almasuarez.com/static/mobile-screen-38f4a72e4c30294deb893a96c86e4566.png" />
                         </div>
                     </div>
                 </div>

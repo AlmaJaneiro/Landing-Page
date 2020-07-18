@@ -3,6 +3,7 @@
 body{
     --textBanner: #2c0074;
     --textRosa: #ffa7c4;
+    --textBlanco: #ffffff;
     font-family: 'Poppins', sans-serif;
 }
 img{
@@ -24,6 +25,7 @@ h1{ font-size: 2.5em;}
 h2{ font-size: 2em; }
 h3{ font-size: 1.5em; }
 .peso_400{font-weight: 400;}
+.peso_900{font-weight: 900;}
 hr{
     width: 100%;
     border: 1px solid #ffa7c4;
@@ -36,6 +38,12 @@ hr{
 }
 .rosa{
     color: var(--textRosa);
+}
+.mail{
+    color: var(--textRosa);
+}
+.mail:hover{
+    color: var(--textBlanco);
 }
 .navbar-div{
     max-width: 1200px;
@@ -52,6 +60,20 @@ hr{
 }
 .espacio_intro{
     padding:  70px 40px;
+}
+.misRedes{
+    padding: 0;
+}
+.misRedes li{
+    display: inline;
+    color:var(--textBlanco);
+    padding-right: 16px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.misRedes li:hover{
+    color:var(--textRosa);
+
 }
 .container{
     padding: 50px 0px;
