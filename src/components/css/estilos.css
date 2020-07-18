@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    --textBanner: #2c0074;
+    --textRosa: #ffa7c4;
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    height: auto;
+    max-width: 100%;
+}
+header{
+    width: 100%;
+    padding: 10px 0px;
+    background: #ffffff;
+    box-shadow: 4px 5px 13px 0px #eae7e7;
+}
+footer{
+    background: #131418;
+    width: 100%;
+    padding: 10px 0px;
+}
+h1{ font-size: 2.5em;}
+h2{ font-size: 2em; }
+h3{ font-size: 1.5em; }
+.peso_400{font-weight: 400;}
+hr{
+    width: 100%;
+    border: 1px solid #ffa7c4;
+}
+.logo{
+    color: var(--textBanner);
+}
+.morado{
+    color: var(--textBanner);
+}
+.rosa{
+    color: var(--textRosa);
+}
+.navbar-div{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.espacio-year{
+    padding: 30px 0px;
+}
+.blanco{
+    color: #ffffff;
+}
+.derecho{
+    text-align: right;
+}
+.espacio_intro{
+    padding:  70px 40px;
+}
+.container{
+    padding: 50px 0px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-3{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.col-6{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.col-12{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+@media (min-width: 1200px){
+    .container {
+        max-width: 1200px;
+    }
+}
+.bounce-1 {
+    animation-name: bounce-1;
+    animation-timing-function: linear;
+    animation-duration: 1.9s;
+    animation-iteration-count: infinite;
+}
+@keyframes bounce-1 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
