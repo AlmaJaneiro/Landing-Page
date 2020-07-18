@@ -5,7 +5,7 @@ class SeccionHome extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            frase: "Eat 😋"
+            frase: "My hobbie is to help people with the tech enviroment"
         };
     }
     componentDidMount(){
@@ -21,7 +21,7 @@ class SeccionHome extends Component {
 
     RandomPhrase = () =>{
 
-        const frases = ["Web Developer", "Front End", "Chicken Lover", "React", "Gatsby", "Wordpress"]
+        const frases = ["I am a Web Developer", "Most of my time i do Front End", "I love eating Chicken", "I am working with React", "I have my web with Gatsby", "My love for Wordpress is unmeasurable"]
 
         const  item = frases[Math.floor(Math.random() * frases.length)];
 
@@ -36,7 +36,7 @@ class SeccionHome extends Component {
                             <div className="espacio_intro">
                                 <h1 className="morado peso_400">Alma Fernanda Suárez </h1>
                                 <h2 className="morado ">
-                                    What can i do { this.state.frase } 
+                                    { this.state.frase } 
                                 </h2>
                             </div>
                         </div>
