@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./css/estilos.css";
+import Social from "./Social.js"
 
 class Footer extends Component {
 
@@ -23,12 +24,12 @@ class Footer extends Component {
                         <div className="col-3">
                             <h3 className="blanco">Sígueme</h3>
                             <ul className="misRedes">
-                                <li><i className="fa fa-facebook"></i></li>
-                                <li><i className="fa fa-instagram"></i></li>
-                                <li><i className="fa fa-twitter"></i></li>
-                                <li><i className="fa fa-wordpress"></i></li>
-                                <li><i className="fa fa-linkedin"></i></li>
-                                <li><i className="fa fa-youtube"></i></li>
+                                <Social clase="facebook" link ="https://www.facebook.com/AlmaSuarezH/" />
+                                <Social clase="instagram" link ="https://www.instagram.com/almasuarezh/" />
+                                <Social clase="twitter" link ="https://twitter.com/AlmaJaneiro" />
+                                <Social clase="wordpress" link ="https://almasuarez.com/" />
+                                <Social clase="linkedin" link ="https://www.linkedin.com/in/alma-fernanda-suarez-777a32b3/" />
+                                <Social clase="youtube" link ="https://www.youtube.com/channel/UCaPBeG1InIWyjyRNDTfk3gw" />
                             </ul>
                             
                         </div>
