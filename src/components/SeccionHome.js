@@ -21,7 +21,7 @@ class SeccionHome extends Component {
 
     RandomPhrase = () =>{
 
-        const frases = ["I am a Web Developer", "Most of my time i do Front End", "I love eating Chicken", "I am working with React", "I have my web with Gatsby", "My love for Wordpress is unmeasurable"]
+        const frases = ["I am a Web Developer", "Most of my time i do Front End", "I love eating Chicken", "I am working with React", "I have my blog in Gatsby", "My love for Wordpress is unmeasurable"]
 
         const  item = frases[Math.floor(Math.random() * frases.length)];
 
@@ -34,7 +34,7 @@ class SeccionHome extends Component {
                     <div className="row">
                         <div className="col-6">
                             <div className="espacio_intro">
-                                <h1 className="morado peso_400">Alma Fernanda Suárez </h1>
+                                <h1 className="morado peso_400">Alma Fernanda 👩🏽‍💻 </h1>
                                 <h2 className="morado ">
                                     { this.state.frase } 
                                 </h2>

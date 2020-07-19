@@ -6,6 +6,27 @@ body{
     --textBlanco: #ffffff;
     font-family: 'Poppins', sans-serif;
 }
+.espacio_logo{
+    width: 30%;
+}
+.espacio_menu{
+    width: 70%;
+
+}
+.enlinea{
+    display: inline-block;
+}
+.scrolled{
+    position: fixed;
+    z-index: 1000;
+    background: rgba(255, 255, 255);
+    box-shadow: -2px -1px 13px 1px #989898;
+    animation: fadeIn ease 1s;
+    -webkit-animation: fadeIn ease 1s;
+    -moz-animation: fadeIn ease 1s;
+    -o-animation: fadeIn ease 1s;
+    -ms-animation: fadeIn ease 1s;
+}
 img{
     height: auto;
     max-width: 100%;
@@ -13,8 +34,7 @@ img{
 header{
     width: 100%;
     padding: 10px 0px;
-    background: #ffffff;
-    box-shadow: 4px 5px 13px 0px #eae7e7;
+    background: rgba(255, 255, 255, 0);
 }
 footer{
     background: #131418;
@@ -59,10 +79,21 @@ hr{
     text-align: right;
 }
 .espacio_intro{
-    padding:  70px 40px;
+    padding:  70px 0px;
 }
 .misRedes{
     padding: 0;
+}
+.miMenu li{
+    display: inline;
+    font-weight: 600;
+    color:var(--textBanner);
+    padding-right: 16px;
+    cursor: pointer;
+}
+.miMenu li:hover{
+    color:var(--textRosa);
+
 }
 .misRedes li{
     display: inline;
@@ -105,6 +136,9 @@ hr{
         flex: 0 0 50%;
         max-width: 50%;
     }
+    .container{
+        padding: 50px 35px;
+    }
 }
 @media (max-width: 600px) and (min-width: 300px){
     .col-3{
@@ -133,3 +167,48 @@ hr{
     50%  { transform: translateY(-20px); }
     100% { transform: translateY(0); }
 }
+
+@keyframes fadeIn{
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
