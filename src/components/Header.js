@@ -21,7 +21,6 @@ class Header extends Component {
                 scrolled: false
               })
             }
-            console.log(window.scrollY);
         })
     }
     componentWillUnmount(){
