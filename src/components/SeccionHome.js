@@ -34,7 +34,7 @@ class SeccionHome extends Component {
                     <div className="row">
                         <div className="col-6">
                             <div className="espacio_intro">
-                                <h1 className="morado peso_400">Alma Fernanda 👩🏽‍💻 </h1>
+                                <h1 className="morado peso_400 no_spc">Alma Fernanda 👩🏽‍💻 </h1>
                                 <h2 className="morado ">
                                     { this.state.frase } 
                                 </h2>

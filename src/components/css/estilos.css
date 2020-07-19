@@ -6,6 +6,30 @@ body{
     --textBlanco: #ffffff;
     font-family: 'Poppins', sans-serif;
 }
+img{
+    height: auto;
+    max-width: 100%;
+}
+header{
+    width: 100%;
+    padding: 10px 0px;
+    background: rgba(255, 255, 255, 0);
+}
+footer{
+    background: #131418;
+    width: 100%;
+    padding: 10px 0px;
+}
+h1{ font-size: 2.5em;}
+h2{ font-size: 2em; }
+h3{ font-size: 1.5em; }
+hr{
+    width: 100%;
+    border: 1px solid #ffa7c4;
+}
+.peso_400{font-weight: 400;}
+.peso_900{font-weight: 900;}
+.no_spc{line-height: 0;}
 .espacio_logo{
     width: 30%;
 }
@@ -26,29 +50,6 @@ body{
     -moz-animation: fadeIn ease 1s;
     -o-animation: fadeIn ease 1s;
     -ms-animation: fadeIn ease 1s;
-}
-img{
-    height: auto;
-    max-width: 100%;
-}
-header{
-    width: 100%;
-    padding: 10px 0px;
-    background: rgba(255, 255, 255, 0);
-}
-footer{
-    background: #131418;
-    width: 100%;
-    padding: 10px 0px;
-}
-h1{ font-size: 2.5em;}
-h2{ font-size: 2em; }
-h3{ font-size: 1.5em; }
-.peso_400{font-weight: 400;}
-.peso_900{font-weight: 900;}
-hr{
-    width: 100%;
-    border: 1px solid #ffa7c4;
 }
 .logo{
     color: var(--textBanner);
@@ -79,7 +80,7 @@ hr{
     text-align: right;
 }
 .espacio_intro{
-    padding:  70px 0px;
+    padding:  150px 0px;
 }
 .misRedes{
     padding: 0;
